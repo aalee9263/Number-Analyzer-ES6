@@ -1,5 +1,9 @@
 body {
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
@@ -7,14 +11,18 @@ h1 {
     color: #333;
 }
 #main{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center; */
+    /* flex-direction: column; */
+    background-color: aqua;
+    width: 360px;
+    border-radius: 4px;
 }
 
 .input-container, .stats-container {
     margin: 4px;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     align-items: center;
     padding: 2px;
@@ -28,6 +36,8 @@ input {
     padding: 5px;
     width: 240px;
     margin-top: 5px;
+    border-radius: 4px;
+    font-size: 25px;
 }
 
 button {
@@ -38,6 +48,7 @@ button {
     cursor: pointer;
     margin: 10px;
     width: 120px;
+    border-radius: 4px;
 }
 
 button:hover {
@@ -50,7 +61,7 @@ p {
 
 span {
     color: #007BFF;
-    margin: 2px;
+    
 }
 /* Example media queries for different screen sizes */
 @media screen and (max-width: 768px) {
