@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let aboveCountSpan = document.getElementById("above-count");
 
     calculateButton.addEventListener("click", () => {
-        let numbers = numbersInput.value.split(',').map(num => parseFloat(num));
+        
         let specificNumber = parseFloat(specificNumberInput.value);
 
         let min = Math.min(...numbers);
